@@ -9,6 +9,8 @@ end
 
 def cobble
   self.condition= "new"
+  #calling the setter method condition=
+  #i can do condition = "new" but i want the truly non-sugar-coated syntax
   puts "Your shoe is as good as new!"
 end
 
