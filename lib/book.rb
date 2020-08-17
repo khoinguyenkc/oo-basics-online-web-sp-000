@@ -4,9 +4,8 @@ class Book
 
 #if u want the ability to do book.new(arguments), need to set up the parameters in initialize
 
-def initialize(title, author)
+def initialize(title, )
   @title = title
-  @author = author
 end
 
 
@@ -15,9 +14,21 @@ def title
 end
 
 
+def author=(author)
+  @author = author
+end
+
+def author
+  @author
+end
+
+def page_count=(num)
+  @page_count = num
+end
 
 
-
-
+def page_count
+  @page_count
+end
 
 end
